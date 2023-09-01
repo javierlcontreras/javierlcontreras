@@ -10,6 +10,12 @@
 
 }
 
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 .navigation-button-array {
     padding-left: 2em;
 }
