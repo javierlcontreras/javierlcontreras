@@ -104,7 +104,7 @@
   
   function changeWindowLayout() {
     var navBar = navBarOriginal.cloneNode(true);
-    if (window.screen.width <= 700) {
+    if (window.innerWidth <= 600) {
       for (var i=0; i < navBar.children.length; i++) {
         var child = navBar.children[i];
         if (child.tagName  == "BUTTON") {
