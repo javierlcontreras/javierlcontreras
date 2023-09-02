@@ -254,6 +254,9 @@ span.highlight {
 .header-link {
   color: black;
 }
+.header-link:hover {
+  color: black;
+}
 
 
 /* Dropdown Button */
