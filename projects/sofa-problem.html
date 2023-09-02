@@ -26,7 +26,7 @@
         <tr style="padding:0px">
           <td style="padding:0px">
 
-    <a class="header-link" href="../aboutme.html">
+    <a class="header-link" href="../index.html">
         <h1 class="name-title">
             Javier López-Contreras
         </h1>
@@ -34,9 +34,9 @@
     <div id="section-navigation-bar" class="navigation-bar">
         <hr class="navigation-separator">
             <button 
-            id="aboutme"
+            id="index"
             class="navigation-button" 
-            onclick="location.href= '../aboutme.html';">About Me</button>
+            onclick="location.href= '../index.html';">About Me</button>
         <button 
             id="experience"
             class="navigation-button" 
@@ -149,7 +149,7 @@
       for (var i=0; i < navBar.children.length; i++) {
         var child = navBar.children[i];
         if (child.tagName  == "BUTTON") {
-          if (child.id == "aboutme" || child.id == currentPage) continue;
+          if (child.id == "index" || child.id == currentPage) continue;
           navBar.removeChild(child);
           i--;
         } 
