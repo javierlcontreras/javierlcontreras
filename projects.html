@@ -16,6 +16,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-FS045G03G0');
+
+
 </script>
 </header>
 <body>
@@ -23,15 +25,20 @@
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr style="padding:0px">
           <td style="padding:0px">
-    <h1 class="name-title">Javier López-Contreras</h1>
-    <div class="navigation-bar">
+
+    <a class="header-link" href="./aboutme.html">
+        <h1 class="name-title">
+            Javier López-Contreras
+        </h1>
+    </a>
+    <div id="section-navigation-bar" class="navigation-bar">
         <hr class="navigation-separator">
             <button 
             id="aboutme"
             class="navigation-button" 
-            onclick="location.href= './index.html';">About Me</button>
+            onclick="location.href= './aboutme.html';">About Me</button>
         <button 
-            id="research"
+            id="experience"
             class="navigation-button" 
             onclick="location.href= './experience.html';">Experience</button>
         <button 
@@ -39,13 +46,29 @@
             class="navigation-button" 
             onclick="location.href= './education.html';">Education</button>
         <button    
-            id="classnotes"
+            id="notes"
             class="navigation-button" 
             onclick="location.href= './notes.html';">Notes</button>
         <button    
             id="projects"
             class="navigation-button navigation-button-active" 
-            onclick="location.href= './fun.html';">Random projects</button>
+            onclick="location.href= './projects.html';">Projects</button>
+       
+        <div class="dropdown">
+            <button 
+                id="others"
+                class="navigation-button"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" zoomAndPan="magnify" viewBox="0 0 30 20.000001" height="13" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 3.386719 7.164062 L 26.613281 7.164062 L 26.613281 22.40625 L 3.386719 22.40625 Z M 3.386719 7.164062 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#id1)"><path fill="rgb(0%, 0%, 0%)" d="M 3.398438 22.40625 L 26.601562 22.40625 L 26.601562 19.867188 L 3.398438 19.867188 Z M 3.398438 16.054688 L 26.601562 16.054688 L 26.601562 13.515625 L 3.398438 13.515625 Z M 3.398438 7.164062 L 3.398438 9.703125 L 26.601562 9.703125 L 26.601562 7.164062 Z M 3.398438 7.164062 " fill-opacity="1" fill-rule="nonzero"/></g></svg>  
+            </button>
+            <div class="dropdown-content">
+                <a id="experience-extra" href='./experience.html'>Experience</a>
+                <a id="education-extra" href='./education.html'>Education</a>
+                <a id="notes-extra" href='./notes.html'>Notes</a>
+                <a id="projects-extra" href='./projects.html'>Projects</a>
+            </div>
+        </div>
+        
         <!--<button 
             id="blogg"
             class="navigation-button" 
@@ -77,13 +100,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
 <br>
 
 
-<a style="color:black;" href="./fun/spherical-minecraft.html">
+<a style="color:black;" href="./projects/spherical-minecraft.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/spherical-minecraft/thumbnail.png" style="max-width:100%;width:auto;">
+            <img src="./images/projects/spherical-minecraft/thumbnail.png" style="max-width:100%;width:auto;">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -96,13 +119,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
 </a>
 
 
-<a style="color:black;" href="./fun/automatic-lipsyncher.html">
+<a style="color:black;" href="./projects/automatic-lipsyncher.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/automatic-lipsyncher/thumbnail.png" style="max-width:100%;width:auto;">
+            <img src="./images/projects/automatic-lipsyncher/thumbnail.png" style="max-width:100%;width:auto;">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -115,13 +138,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
 </a>
 
 
-<a style="color:black;" href="./fun/ants-animation.html">
+<a style="color:black;" href="./projects/ants-animation.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/ants-animation/thumbnail.png" style="max-width:100%;width:auto;">
+            <img src="./images/projects/ants-animation/thumbnail.png" style="max-width:100%;width:auto;">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -134,13 +157,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
 </a>
 
 
-<a style="color:black;" href="./fun/sofa-problem.html">
+<a style="color:black;" href="./projects/sofa-problem.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/sofa-problem/intro.png" style="max-width:100%;width:auto;">
+            <img src="./images/projects/sofa-problem/intro.png" style="max-width:100%;width:auto;">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -153,13 +176,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
     </div>
 </a>
 
-<a style="color:black;" href="./fun/minecraft-clone.html">
+<a style="color:black;" href="./projects/minecraft-clone.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/minecraft-clone/grass-portal.jpeg" style="max-width:100%;width:auto;">
+            <img src="./images/projects/minecraft-clone/grass-portal.jpeg" style="max-width:100%;width:auto;">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -174,13 +197,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
     </div>
 </a>
 
-<a style="color:black;" href="./fun/little-fme.html">
+<a style="color:black;" href="./projects/little-fme.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/little-fme/intro.jpg" height="120">
+            <img src="./images/projects/little-fme/intro.jpg" height="120">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -195,13 +218,13 @@ In my spare time, I like to explore topics outside my academic interests. These 
     </div>
 </a>
 
-<a style="color:black;" href="./fun/portfolio.html">
+<a style="color:black;" href="./projects/portfolio.html">
     <div class="blogpost">
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
     <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="onelogo">
-            <img src="./images/fun/portfolio/thumbnail.png" style="max-width:100%;width:auto;">
+            <img src="./images/projects/portfolio/thumbnail.png" style="max-width:100%;width:auto;">
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -226,5 +249,47 @@ In my spare time, I like to explore topics outside my academic interests. These 
 </table>  
 
 </body>
+
+<script>
+  var currentPage = "projects";
+  var navBarOriginal = document.getElementById("section-navigation-bar").cloneNode(true)
+  var extraButtonsOriginal = navBarOriginal.children[navBarOriginal.children.length-2]
+  
+  function changeWindowLayout() {
+    var navBar = navBarOriginal.cloneNode(true);
+    if (window.screen.width <= 700) {
+      for (var i=0; i < navBar.children.length; i++) {
+        var child = navBar.children[i];
+        if (child.tagName  == "BUTTON") {
+          if (child.id == "aboutme" || child.id == currentPage) continue;
+          navBar.removeChild(child);
+          i--;
+        } 
+      }
+      var extraButtons = extraButtonsOriginal.cloneNode(true)
+      var buttonsDropdown = extraButtons.children[1];
+      for (var i=0; i < buttonsDropdown.children.length; i++) {
+        var child = buttonsDropdown.children[i];
+        console.log(child.id)
+        console.log(currentPage)
+        if (child.id.includes(currentPage) ) {
+          console.log("WIN")
+          buttonsDropdown.removeChild(child);
+          i--;
+        }
+      }
+      extraButtons.children[1].innerHTML = buttonsDropdown.innerHTML
+      navBar.children[navBar.children.length-2].innerHTML = extraButtons.innerHTML
+    }
+    else {
+      navBar.removeChild(navBar.children[navBar.children.length-2])
+    }
+    var navBarNow = document.getElementById("section-navigation-bar");
+    navBarNow.innerHTML = navBar.innerHTML
+  }
+  
+  changeWindowLayout()
+  window.onresize = changeWindowLayout;
+</script>
 
 </html>
